@@ -1,22 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBarApp from './components/navbar/NavBar.js';
+import './components/navbar/NavBarStyle.css';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hola CoderHouse!!</p>
-        <a
-          className="App-link"
-          href="https://plataforma.coderhouse.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          plataforma coderhouse
-        </a>
-      </header>
-    </div>
+    <NavBarApp/>
   );
 }
 

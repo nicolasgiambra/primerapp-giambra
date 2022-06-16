@@ -3,13 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { BsFillCartFill } from "react-icons/bs";
+import CartWidget from '../CartWidget'
 
 const NavBarApp = () =>{
     return(
         <Navbar className='navBgColor' expand="lg">
         <Container>
-            <BsFillCartFill fontSize={"1.3vw"}/>
+            <CartWidget/>
             <Navbar.Brand className='' href="#home">Tienda Nico</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
